@@ -4,8 +4,8 @@
 This module is to write the details of the functions/class_methods of the given
 python package in an excel sheet.
 How to execute the package in command line:
-    format: python pkgtoxls <python_package> <excel_file_path>
-    example: python pkgtoxls pkg1.subpkg1 dir1/dir2/file1.xlsx
+    format: python pkgtoxls.py <python_package> <excel_file_path>
+    example: python pkgtoxls.py pkg1.subpkg1 dir1/dir2/file1.xlsx
     (python_package should be able to be imported from the current
     execution path)
 """
